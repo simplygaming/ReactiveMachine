@@ -2,7 +2,7 @@ from sc2.bot_ai import BotAI, Race
 from sc2.data import Result
 
 class CompetitiveBot(BotAI):
-    NAME: str = "CompetitiveBot"
+    NAME: str = "ReactiveMachine"
     """This bot's name"""
 
     RACE: Race = Race.Zerg
