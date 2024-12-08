@@ -1,7 +1,9 @@
 from sc2.bot_ai import BotAI, Race
 from sc2.data import Result
-
+from sc2.ids.unit_typeid import UnitTypeId
+from sc2.ids.ability_id import AbilityId
 class CompetitiveBot(BotAI):
+    
     NAME: str = "ReactiveMachine"
     """This bot's name"""
 
